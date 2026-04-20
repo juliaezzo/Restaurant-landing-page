@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Burger Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+  <div class="logo">
+    <img src="images/logo-removebg-preview.png" alt="Logo">
+  </div>
+
+  <!-- Hamburger menu -->
+  <input type="checkbox" id="menu-toggle">
+  <label for="menu-toggle" class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+
+  <!-- Navigation links -->
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#Testimonials">Testimonials</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</nav>
+
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Welcome to Our Burger Place</h1>
+      <p>Delicious & Juicy Burgers Just for You</p>
+      <a href="#special" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <!-- Special Dishes Section -->
+  <section class="special" id="special">
+    <h2>Our Special Dishes</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/burger_recipe-removebg-preview.png" alt="Dish 1">
+        <div class="card-overlay">
+          <h3>Chader Burger</h3>
+          <p>$12</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/burg_recipe3-removebg-preview.png" alt="Dish 2">
+        <div class="card-overlay">
+          <h3>Chesse Burger</h3>
+          <p>$5</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/burg_recipe2-removebg-preview.png" alt="Dish 3">
+        <div class="card-overlay">
+          <h3>Chiken Burger</h3>
+          <p>$3</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- ======= menu section======= -->
+  <section class="menu-section" id="menu">
+  <h2 class="menu-title">Menu</h2>
+  <div class="menu-cards">
+    <div class="menu-card" data-aos="fade-up">
+      <img src="images/menu1.png" alt="Dish 1">
+      <div class="menu-content">
+        <h3>Cheese Burger</h3>
+        <p>Juicy beef with cheese</p>
+        <p class="price">$12</p>
+        <button class="order-btn">Buy Now</button>
+      </div>
+    </div>
+    <div class="menu-card" data-aos="fade-up" data-aos-delay="100">
+      <img src="images/menu2.png" alt="Dish 2">
+      <div class="menu-content">
+        <h3>Chicken</h3>
+        <p>Spicy chicken</p>
+        <p class="price">$15</p>
+        <button class="order-btn">Buy Now</button>
+      </div>
+    </div>
+    <div class="menu-card" data-aos="fade-up" data-aos-delay="200">
+      <img src="images/menu3.png" alt="Dish 3">
+      <div class="menu-content">
+        <h3>Veggie </h3>
+        <p>Fresh organic veggies</p>
+        <p class="price">$10</p>
+        <button class="order-btn">Buy Now</button>
+      </div>
+    </div>
+    <div class="menu-card" data-aos="fade-up">
+      <img src="images/menu4.png" alt="Dish 4">
+      <div class="menu-content">
+        <h3>French Fries</h3>
+        <p> mini burgers</p>
+        <p class="price">$5</p>
+        <button class="order-btn">Buy Now</button>
+      </div>
+    </div>
+    <div class="menu-card" data-aos="fade-up" data-aos-delay="100">
+      <img src="images/menu5.png" alt="Dish 5">
+      <div class="menu-content">
+        <h3>Cheesy</h3>
+        <p>Hot cheesy delight</p>
+        <p class="price">$14</p>
+        <button class="order-btn">Buy Now</button>
+      </div>
+    </div>
+    <div class="menu-card" data-aos="fade-up" data-aos-delay="200">
+      <img src="images/burg_recipe3-removebg-preview.png" alt="Dish 6">
+      <div class="menu-content">
+        <h3>double chesse</h3>
+        <p>Rich & creamy souce</p>
+        <p class="price">$6</p>
+        <button class="order-btn">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ==========testemonials======== -->
+<section class="testimonials-section" id="Testimonials">
+  <h2 class="testimonials-title">Testimonials</h2>
+  
+
+    <div class="testimonials-wrapper">
+      <div class="testimonial-card">
+        <img src="images/testimonial1.jpg" alt="Client 1">
+        <p>"The burger here is absolutely amazing! Highly recommended."</p>
+        <h4>John jee</h4>
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/testemonial3.jpg" alt="Client 2">
+        <p>"Delicious food and amazing service! I loved it."</p>
+        <h4>Michael Lee</h4>
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/testemonial2.jpg" alt="Client 3">
+        <p>"Best burger in town! The flavors are perfect."</p>
+        <h4>Sara Kim</h4>
+        <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+      </div>
+    </div>
+</section>
+<!-- =============about section============ -->
+<section class="about-us" id="about">
+  <div class="about-images">
+    <div class="img-box left">
+      <img src="images/about.jpg" alt="Chef cooking">
+    </div>
+    <div class="img-box right">
+      <img src="images/about2.jpg" alt="Dinner table">
+    </div>
+    <span class="since">Since 2010</span>
+  </div>
+
+  <div class="about-text">
+    <h1>About Us</h1>
+    <h3>Between Heaven & Earth</h3>
+    <p>
+      The character and philosophy of our type of cuisine, which follows the 
+      ancestral technique of using different types of firewood, fire, charcoal 
+      and the scented trace of the smoke, inherently results in a limitation 
+      on the number of diners that we can accommodate without sacrificing our essence.
+    </p>
+    <p class="quote">
+      Whisper to us about your feelings, and we will prepare what you need now.
+    </p>
+    <a href="#" class="btn">Discover More</a>
+  </div>
+</section>
+<!-- ==========contact us========== -->
+ <section class="contact" id="contact">
+    <div class="contact-map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.480313585474!2d36.30636707549106!3d33.51119877336271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e73dbb2f2c37%3A0x9c3d5d226d1ad7f!2z2KfZhNmF2YbZitmF2YrYqSDYp9mE2KXZitmF2YrZhtin2YUg2KfZhNis2KfZhNiq2K0g2KfZhNi52YrZhg!5e0!3m2!1sar!2s!4v1695665654321!5m2!1sar!2s" 
+      width="50%" 
+      height="50%" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+
+    <div class="contact-form">
+      <h2>Contact Us </h2>
+      <p>We’d love to hear from you! Fill in the form below 👇</p>
+
+      <form>
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Your name" required>
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your email" required>
+        </div>
+
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==========footer====== -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- About -->
+    <div class="footer-col">
+      <h3>Burger House 🍔</h3>
+      <p>Delicious burgers, fresh ingredients, and a place where taste meets passion.</p>
+    </div>
+
+    <!-- Hours -->
+    <div class="footer-col">
+      <h3>Opening Hours ⏰</h3>
+      <ul>
+        <li>Mon - Fri: 10:00 AM - 11:00 PM</li>
+        <li>Sat - Sun: 12:00 PM - 12:00 AM</li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-col">
+      <h3>Contact 📩</h3>
+      <p>Email: <a href="mailto:info@burgerhouse.com">BurgerQueen@gmail.com</a></p>
+      <p>phone: +9639926584719</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Burger . All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+<!-- AOS Library -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+   AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+</body>
+</html>
